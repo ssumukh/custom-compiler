@@ -1,0 +1,31 @@
+class Program
+{
+  int a[100];
+  void main()
+  {
+    int num;
+    int n;
+    int i;
+    int ind;
+    ind = 0;
+    i=0;
+
+    n = 100;
+    for i=0,n
+    {
+      a[i] = i;
+      i = i + 1;
+    }
+    num=73;
+
+    for i=0,n
+    {
+      if( a[i] == num )
+      {
+        ind = i;
+      }
+      i = i + 1;
+    }
+    printf("%d number is at %d index\n", num, ind);
+  }
+}

@@ -1,0 +1,28 @@
+class Program
+{
+  int a[5005];
+  void main()
+  {
+    int n;
+    int i;
+    int tmp, mod, p;
+    n = 5000;
+    i=-1;
+    p=7373;
+    mod = 31;
+    for i=0,n
+    {
+      a[i] = (i*p)%mod;
+      i = i + 1;
+    }
+    for i=0,n
+    {
+      tmp = a[i] % 2;
+      if( tmp == 0 )
+      {
+        printf("Even number at index %d: %d\n", i, a[i]);
+      }
+      i = i + 1;
+    }
+  }
+}
