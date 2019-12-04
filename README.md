@@ -1,8 +1,8 @@
 # Custom Compiler for a C-like language
 
-Back-end of the compiler for a custom programming language, similar to C. 
+  A fully functional back-end of the compiler for a custom programming language, similar to C. 
 
-A fully functional back-end of the compiler for a custom programming language, similar to C. Built parser, scanner, abstract syntax tree, interpreter for generating intermediate representation (LLVM IR) code for an input code file.
+  Built parser, scanner, abstract syntax tree, interpreter for generating intermediate representation (LLVM IR) code for an input code file.
 
   The language design for the language is in [this](https://github.com/nonejk/custom-compiler/blob/master/compilers_language_design.pdf) file, where the grammar is explained in details, with the data types and operations, both unary and binary, supported; output format; control statements; and function declarations, along with semantic analysis.
 
