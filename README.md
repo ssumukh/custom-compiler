@@ -1,6 +1,6 @@
 # Custom Compiler for a C-like language
 
-  A fully functional back-end of the compiler for a custom programming language, similar to C. 
+  A fully functional front-end of the compiler for a custom programming language, similar to C. 
 
   Built parser, scanner, abstract syntax tree, interpreter for generating intermediate representation (LLVM IR) code for an input code file.
 
